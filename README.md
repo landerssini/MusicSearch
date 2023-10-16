@@ -3,14 +3,18 @@
 
 This project is an interactive music player that allows users to search for songs using the Spotify API, play, pause, and track the song's progress. The application displays details such as the song name, artists, and duration. Users can explore new music and enjoy their favorite tunes in an easy and enjoyable way.
 
+### Netlify deployment:
+
+https://landerssini-music-search.netlify.app/
+
 
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/landerssini/MusicSearch/blob/main/Screenshot_1.png?raw=true)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/landerssini/MusicSearch/blob/main/Screenshot_2.png?raw=true)
 
 
 ## Features
