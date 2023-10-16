@@ -33,6 +33,7 @@ export const TrackItem = ({ trackInfo, playSong, currentSongId, progress }) => {
           <CircularProgressbarWithChildren
             value={trackInfo.id === currentSongId ? progress : 0}
             className='w-12 z-10'
+            strokeWidth={10}
             styles={buildStyles({
               strokeLinecap: 'butt',
               textSize: '16px',
