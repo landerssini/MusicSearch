@@ -20,11 +20,11 @@ export const App = () => {
       setCurrentSong(null);
       setCurrentSongId(null)
     } else {
-      if (currentSong === url) {
-        setCurrentSong(null)
-      }
-      setCurrentSong(url);
+      setCurrentSong(null);
       setCurrentSongId(id)
+      setTimeout(() => {
+        setCurrentSong(url);
+      }, 0);
     }
   };
 
