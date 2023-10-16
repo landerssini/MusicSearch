@@ -118,9 +118,7 @@ export const App = () => {
   return (
     <>
       <div className="w-screen h-screen flex flex-col items-center gap-5 bg-[url('./assets/bg.png')] bg-cover">
-        <div>
-          <img src={logo} alt="" className='w-[25vh]' />
-        </div>
+        <img src={logo} alt="" className='w-[25vh]' />
         <div className=' p-2 w-full flex flex-col items-center gap-5'>
           <div >
             <div className="relative flex items-center w-full rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
