@@ -14,7 +14,6 @@ export const getTokenSpotify = async () => {
         const response = await fetch('https://accounts.spotify.com/api/token', requestOptions);
         const data = await response.json();
         const Bearer = data.access_token;
-        console.log('Token solicitado');
         return Bearer;
     } catch (error) {
         throw error; 
@@ -32,7 +31,6 @@ export const getSongs = async (query, accessToken) => {
 
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             return data;
         } else {
             throw new Error('Error al realizar la búsqueda');

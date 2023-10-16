@@ -102,7 +102,6 @@ export const App = () => {
     if (searchInput.length >= 3) {
       setSearching(true)
       timeoutIdRef.current = setTimeout(async () => {
-        console.log("ahora");
         const data = await getSongs(searchInput, BearerKey);
         setResults(data.tracks.items);
         setSearching(false)
